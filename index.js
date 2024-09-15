@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/api/top-ten')
+    fetch('https://quab-backend.onrender.com/api/top-ten')
         .then(response => response.json())
         .then(data => {
             const tableBody = document.querySelector('#crypto-table tbody');
